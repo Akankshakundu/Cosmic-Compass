@@ -65,3 +65,15 @@ button {
 button:hover {
     background-color: #2563eb;
 }
+
+/* Fix list styling */
+ul {
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 5px 0;
+}
+
