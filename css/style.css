@@ -68,13 +68,13 @@ button:hover {
 
 /* Fix list styling */
 ul {
-    list-style-position: inside;
+    list-style: none;
     padding: 0;
     text-align: center;
 }
 
 li {
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 /* Improve sections (cards) */
