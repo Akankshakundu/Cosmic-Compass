@@ -1,16 +1,20 @@
-function changeFact() {
+function showTodayFact() {
 
     const facts = [
         "The Sun accounts for about 99.86% of the Solar System's mass.",
         "Jupiter is so large that all other planets could fit inside it.",
         "A day on Venus is longer than a year on Venus.",
-        "Neutron stars are so dense that a teaspoon would weigh billions of tons.",
-        "Saturn could float in water because it is mostly made of gas.",
+        "Neutron stars are extremely dense.",
+        "Saturn could float in water.",
         "Mars has the tallest volcano in the Solar System.",
-        "Light from the Sun takes about 8 minutes to reach Earth."
+        "Light from the Sun takes 8 minutes to reach Earth."
     ];
 
-    let randomIndex = Math.floor(Math.random() * facts.length);
+    let today = new Date();
 
-    document.getElementById("spaceFact").innerText = facts[randomIndex];
+    // Get a number based on date
+    let index = today.getDate() % facts.length;
+
+    document.getElementById("spaceFact").innerText = facts[index];
 }
+window.onload = showTodayFact;
