@@ -191,3 +191,8 @@ p {
     line-height: 1.7;
     color: #d1d5db;
 }
+.tagline {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-top: 5px;
+}
