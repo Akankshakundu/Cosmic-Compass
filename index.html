@@ -26,15 +26,29 @@
     <h2>Welcome to Cosmic Compass</h2>
     <p>Explore space, understand the universe, and discover what’s beyond Earth.</p>
 
-    <section>
-        <h2>🌠 Space Insights</h2>
+    <div class="card-container">
 
-        <p id="spaceFact">Click the button to discover a new space fact!</p>
+        <div class="card">
+            <h3>🌠 Space Quick Facts</h3>
+            <p id="spaceFact">Loading today's space fact...</p>
+            <button onclick="showTodayFact()">Show Today’s Fact</button>
+        </div>
 
-        <button onclick="showTodayFact()">Show Today’s Fact</button>   
-    </section>
+        <div class="card">
+            <h3>🔭 Stargazing Guide</h3>
+            <p>Learn what you can see in the night sky and how to observe it.</p>
+            <a href="stargazing.html">Explore Stargazing →</a>
+        </div>
 
-    </main>
+        <div class="card">
+            <h3>🪐 Solar System</h3>
+            <p>Discover planets, the Sun, and everything in our Solar System.</p>
+            <a href="learn.html">Learn More →</a>
+        </div>
+
+        </div>
+
+     </main>
     
     <!-- Link JavaScript -->
     <script src="js/script.js"></script>
