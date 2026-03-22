@@ -17,4 +17,12 @@ function showTodayFact() {
 
     document.getElementById("spaceFact").innerText = facts[index];
 }
-window.onload = showTodayFact;
+function showDate() {
+    let today = new Date();
+    let formattedDate = today.toDateString();
+    document.getElementById("todayDate").innerText = formattedDate;
+}
+window.onload = function() {
+    showTodayFact();
+    showDate();
+};
