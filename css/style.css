@@ -196,3 +196,38 @@ p {
     color: #9ca3af;
     margin-top: 5px;
 }
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.content img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.content-text {
+    max-width: 400px;
+}
+section {
+    background-color: #1f2937;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 700px;
+}
+img {
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+main {
+    max-width: 900px;
+    margin: auto;
+}
