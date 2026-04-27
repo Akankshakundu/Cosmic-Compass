@@ -231,3 +231,19 @@ main {
     max-width: 900px;
     margin: auto;
 }
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-text {
+    max-width: 400px;
+}
