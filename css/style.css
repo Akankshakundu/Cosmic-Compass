@@ -247,3 +247,7 @@ main {
 .content-text {
     max-width: 400px;
 }
+/* Alternate layout */
+.reverse .content {
+    flex-direction: row-reverse;
+}
