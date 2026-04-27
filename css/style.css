@@ -262,7 +262,7 @@ section {
     left: 0;
     width: 100%;
     height: 200%;
-    background: url("images/stars.zip");
+    background: url("images/stars.jpg");
     background-repeat: repeat;
     animation: moveStars 80s linear infinite;
     z-index: -1;
